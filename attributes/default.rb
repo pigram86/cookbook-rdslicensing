@@ -16,10 +16,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-registry_key node['rds']['key'] do
-  values [{:name => "LicenseServers", :type => :string, :data => "dc1.wsd.coc.local"},
-          {:name => "LicensingMode", :type => :dword, :data => "4"}
-         ] 
-  recursive true
-  action :create
-end
+default['rds']['key'] = "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services"
