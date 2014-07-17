@@ -1,10 +1,10 @@
 {  
     "chef": {    
-        "chef_server_url": "https://api.opscode.com/organizations/pigtest",    
-        "validation_client_name": "pigtest-validator",    
-        "validation_key_path": "/etc/chef/pigtest-validation.pem",    
+        "chef_server_url": "https://api.opscode.com/organizations/daas",    
+        "validation_client_name": "daas-validator",    
+        "validation_key_path": "/etc/chef/daas-validation.pem",    
         "client_key": "/Users/reset/.chef/toddpigram.pem",    
-        "node_name": "pigram86"  
+        "node_name": "toddpigram"  
     },  
         
     "vagrant": {    
